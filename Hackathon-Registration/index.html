@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova Hackathon 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2>TechNova 2026</h2>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#event">Event</a>
+            <a href="#register">Register</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <h1>TechNova Hackathon 2026</h1>
+        <p>Innovate • Build • Solve</p>
+        <a href="#register" class="button">Register Now</a>
+    </section>
+
+    <section id="event">
+        <h2>Event Information</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>📅 Date</h3>
+                <p>15 October 2026</p>
+            </div>
+
+            <div class="card">
+                <h3>⏰ Time</h3>
+                <p>9:00 AM - 5:00 PM</p>
+            </div>
+
+            <div class="card">
+                <h3>📍 Venue</h3>
+                <p>College Seminar Hall</p>
+            </div>
+
+            <div class="card">
+                <h3>💻 Theme</h3>
+                <p>Technology for a Better Future</p>
+            </div>
+
+        </div>
+
+        <div class="about">
+            <h3>About the Hackathon</h3>
+            <p>
+                TechNova Hackathon 2026 is a college-level technology event
+                where students can develop innovative solutions to real-world
+                problems using technology.
+            </p>
+
+            <h3>Who Can Participate?</h3>
+            <p>
+                Students from all departments and academic years can participate.
+            </p>
+        </div>
+    </section>
+
+    <section id="register">
+        <h2>Hackathon Registration</h2>
+
+        <form id="registrationForm">
+
+            <label>Participant Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <small id="nameError"></small>
+
+            <label>Register Number</label>
+            <input type="text" id="registerNumber" placeholder="Enter register number">
+            <small id="registerError"></small>
+
+            <label>Department / Organization</label>
+            <input type="text" id="department" placeholder="Example: CSE">
+            <small id="departmentError"></small>
+
+            <label>Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            <small id="emailError"></small>
+
+            <label>Mobile Number</label>
+            <input type="tel" id="mobile" placeholder="10-digit mobile number">
+            <small id="mobileError"></small>
+
+            <label>Year of Study</label>
+            <select id="year">
+                <option value="">Select Year</option>
+                <option>1st Year</option>
+                <option>2nd Year</option>
+                <option>3rd Year</option>
+                <option>4th Year</option>
+            </select>
+            <small id="yearError"></small>
+
+            <label>Select Event</label>
+            <select id="eventSelection">
+                <option value="">Select Event</option>
+                <option>TechNova Hackathon</option>
+                <option>Coding Challenge</option>
+                <option>AI Challenge</option>
+            </select>
+            <small id="eventError"></small>
+
+            <button type="submit">Submit Registration</button>
+
+        </form>
+
+        <div id="successMessage">
+            ✅ Registration successful!
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <p><b>Email:</b> technova@example.com</p>
+        <p><b>Phone:</b> +91 98765 43210</p>
+        <p><b>Venue:</b> College Seminar Hall</p>
+    </section>
+
+    <footer>
+        <p>© 2026 TechNova Hackathon</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
